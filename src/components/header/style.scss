@@ -1,0 +1,21 @@
+@import "../../color.scss";
+
+.header {
+    background: $light-3;
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+    padding: 1em;
+
+    .input_Todo {
+        width: 23em;
+        outline: none
+    }
+
+    .button-Todo {
+        padding: 5px;
+        background: $light-2;
+        border-color: $light-2;
+       
+    }
+}

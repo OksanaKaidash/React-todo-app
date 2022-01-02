@@ -1,0 +1,23 @@
+@import "./color.scss";
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register {
+  border: 1px solid  $light-4;
+  max-width: 34rem;
+  width: 100%;
+
+  .title{
+    background: $light-4;
+    padding: 15px;
+    text-align: start;
+  }
+}
+
